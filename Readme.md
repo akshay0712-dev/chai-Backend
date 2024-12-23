@@ -15,7 +15,7 @@ Follow these instructions to set up the project on your local machine.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/Cha-backend.git
+    git clone https://github.com/akshay0712-dev/chai-Backend.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -43,7 +43,7 @@ This project is licensed under the MIT License.
 
 ### Acknowledgments
 
-- [Chai or Code YouTube Channel](https://www.youtube.com/channel/UCxyz)
+- [Chai or Code YouTube Channel](https://youtube.com/playlist?list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW&si=P1SpEcuVnKPgaLCU)
 - All contributors and supporters
 
 Happy coding!
