@@ -1,0 +1,17 @@
+{
+  "name": "cha-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akshay",
+  "license": "ISC",
+  "description": "Backend Learning from chao or code - youtube",
+  "keywords": [
+    "javascript",
+    "backend",
+    "learn",
+    "chai"
+  ]
+}
