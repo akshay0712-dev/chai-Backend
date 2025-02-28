@@ -393,14 +393,12 @@ const getUserChannelProfile = asyncHandler(async (req, res) => {
         channelsSubscribedToCount: {
           $size: "$subscribedTo",
         },
-      },
-    },
-    {
-      isSubscribed: {
-        $cond: {
-          if: { $in: [req.user?._id, "$subscribers.subscriber"] },
-          then: true,
-          else: false,
+        isSubscribed: {
+          $cond: {
+            if: { $in: [req.user?._id, "$subscribers.subscriber"] },
+            then: true,
+            else: false,
+          },
         },
       },
     },
@@ -462,7 +460,7 @@ const getWatchHistory = asyncHandler(async (req, res) => {
             },
           },
           {
-            $add: {
+            $addFields: {
               owner: {
                 $first: "$owner",
               },
@@ -494,5 +492,6 @@ export {
   updateAccountDetails,
   updateUserAvatar,
   updateUserCoverImage,
+  getUserChannelProfile,
   getWatchHistory,
 };
